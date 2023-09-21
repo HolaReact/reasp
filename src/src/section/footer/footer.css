@@ -1,0 +1,26 @@
+.upload-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .uploaded-image {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .uploaded-images-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .uploaded-images-container img {
+    max-width: 150px;
+    margin: 5px;
+  }
+  
